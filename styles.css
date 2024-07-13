@@ -1,0 +1,31 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: flex;
+    width: 40vw;
+    height: 90vh;
+    border: 2px solid grey;
+    margin: 50px;
+    border-radius: 4%;
+    justify-content: center;
+    position: relative;
+
+}
+
+.image {
+    width: 95%;
+    height: 50%;
+    border: 1px solid grey;
+    padding: 0px;
+    overflow: hidden;
+    position: absolute;
+    top: 10px;
+    border-radius: 4%;
+}
+
+span{
+    border: 1px solid grey;
+}
