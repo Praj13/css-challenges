@@ -5,6 +5,7 @@
 
 .navbar{
     background-color: rgb(197, 84, 84);
+    position: sticky;
 }
 
 .navbar ul {
@@ -15,6 +16,7 @@
     margin-right: 30px;
     background-color: rgb(197, 84, 84);
 
+
 }
 
 ul li {
@@ -22,12 +24,13 @@ ul li {
 }
 .main{
     width: 90vw;
-    height: 100vh;
+    height: 80vh;
     background-color: antiquewhite;
     margin-left: 70px;
 }
 .main{
     display: flex;
+    /* position: relative; */
 }
 .box1{
     width: 50%;
@@ -54,7 +57,13 @@ ul li {
     margin-left: 140px;
     margin-top: 50px;
 }
-
+.logo{
+    /* position: absolute; */
+    /* z-index: 1; */
+    float: right;
+    margin-right: 70px;
+    position: fixed;
+}
 .footer{
     width: 100vw;
     height: 30vh;
