@@ -6,6 +6,7 @@
 .navbar{
     background-color: rgb(197, 84, 84);
     position: sticky;
+top: 0;
 }
 
 .navbar ul {
@@ -36,14 +37,14 @@ ul li {
     width: 50%;
     height: 90%;
     background-color: aquamarine;
-    margin: 60px;
+    margin: 30px;
 }
 
 .box2{
     width: 50%;
     height: 90%;
     background-color: rgb(52, 18, 191);
-    margin: 60px;
+    margin: 30px;
 }
 
 .radius{
@@ -58,11 +59,14 @@ ul li {
     margin-top: 50px;
 }
 .logo{
-    /* position: absolute; */
-    /* z-index: 1; */
-    float: right;
     margin-right: 70px;
     position: fixed;
+    right:0;
+   
+}
+
+img{
+    border-radius: 90px;
 }
 .footer{
     width: 100vw;
