@@ -1,0 +1,137 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.navbar ul{
+    display: flex;
+    gap: 35px;
+    margin: 10px;
+    align-items: center;
+    justify-content: center;
+}
+
+
+ul li{
+    list-style: none;
+
+}
+li:hover{
+    cursor: pointer;
+    text-decoration: underline;
+    color: brown;
+}
+
+.logo1{
+    align-self: flex-start;
+    justify-self: flex-start;
+    margin-right: 250px;
+}
+
+
+/* main section of the website  */
+
+.main{
+    display: grid;
+    grid-template-areas: "English Deutsch Italiano"
+                        "Espanol francais Portugues_brasilliero" 
+                        "Japanese Korean Chinese"
+                        "Traditional_Chinese Traditional_Chinese Traditional_Chinese";
+
+    gap: 10px;
+    /* border: 1px solid black; */
+    height: 85vh;
+    /* padding: 100px; */
+    justify-content: center;
+    align-content: center;
+}
+
+/* .box{
+    width: 70%;
+    /* height: 50px; */
+    /* border: 1px solid grey;
+    background-color: grey;
+} */ 
+
+.box1{
+    grid-area: English;
+    /* border: 1px solid grey; */
+    background-color: rgb(237, 233, 233);
+    height: 120px;
+    width: 250px;
+
+}
+
+.box2{
+    grid-area: Deutsch;
+    /* border: 1px solid grey; */
+    background-color: rgb(237, 233, 233);
+    height: 120px;
+        width: 250px;
+}
+
+.box3{
+    grid-area: Italiano;
+    /* border: 1px solid grey; */
+    background-color: rgb(237, 233, 233);
+    height: 120px;
+    width: 250px;
+}
+
+.box4{
+    grid-area: Espanol;
+    /* border: 1px solid grey; */
+    background-color: rgb(237, 233, 233);
+    height: 120px;
+    width: 250px;
+}
+
+.box5{
+    grid-area:francais;
+    /* border: 1px solid grey; */
+    background-color: rgb(237, 233, 233);
+    height: 120px;
+    width: 250px;
+}
+.box6{
+    grid-area: Portugues_brasilliero;
+    /* border: 1px solid grey; */
+    background-color: rgb(237, 233, 233);
+    height: 120px;
+    width: 250px;
+}
+
+.box7{
+    grid-area: Japanese;
+    /* border: 1px solid grey; */
+    background-color: rgb(237, 233, 233);
+    height: 120px;
+    width: 250px;
+}
+
+.box8{
+    grid-area: Korean;
+    /* border: 1px solid grey; */
+    background-color: rgb(237, 233, 233);
+    height: 120px;
+    width: 250px;
+}
+.box9{
+    grid-area: Chinese;
+    /* border: 1px solid grey; */
+    background-color: rgb(237, 233, 233);
+    height: 120px;
+    width: 250px;
+}
+
+.box10{
+    grid-area: Traditional_Chinese;
+    /* border: 1px solid grey; */
+    background-color: rgb(237, 233, 233);  
+    height: 120px;
+    width: 250px;      
+}
+
+
+
+
+
