@@ -142,10 +142,16 @@ li:hover{
 }
 
 
-h3{
+/* h3  {
     text-align: center;
     padding-top: 10px;
-    padding-bottom: 40px;
+    padding-bottom: 30px;
+} */
+.info{
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 30px;
+    line-height:20px;
 }
 a{
     text-decoration: none;
@@ -167,5 +173,15 @@ a:hover{
     background-color: rgb(8, 123, 75);
     color: white;
 }
+.none{
+    visibility: hidden;
+}
 
 
+
+/* @media only screen and (min-width:362px){
+    .main{
+        display: grid;
+        grid-template-columns: 120px;
+    }
+} */
