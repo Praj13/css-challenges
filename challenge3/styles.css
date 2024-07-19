@@ -1,0 +1,30 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.navbar ul{
+    display: flex;
+    gap: 25px;
+    margin: 20px;
+    align-items: center;
+    justify-content: center;
+}
+
+
+ul li{
+    list-style: none;
+
+}
+li:hover{
+    cursor: pointer;
+    text-decoration: underline;
+    color: brown;
+}
+
+.logo1{
+    align-self: flex-start;
+    justify-self: flex-start;
+    margin-right: 250px;
+}
+
+
